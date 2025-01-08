@@ -1,0 +1,4 @@
+# INSTRUCTIONS: To use git large file storage, copy line 3 and replace ".lfs-init" with the extension or filename of your choice.
+
+.lfs-init filter=lfs diff=lfs merge=lfs -text
+
