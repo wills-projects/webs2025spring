@@ -85,7 +85,7 @@ Unless otherwise noted, *materials are expected by 10pm on the following dates*,
 
 If you look around in the default repo, you'll see that there are already a few subfolders created. These correspond to the folders that you'll be asked to make in the html/css tutorial I'm assigning for homework, and are my suggested way of organizing your space as you make your way through the exercises there.
 
-Note, though, that you will have to create at least one more folder even in the first homework (for the fourth tutorial, "Hello, CSS"). And, presumably, many more (the tutorial has 14 chapters, though not all of them are assigned). You can create these new folders directlly in VS Code or Pulsar by right-clicking in the empty space of the sidebar where the other folders already exist. (Other text editors probably have similar affordances.)
+Note, though, that you will have to create at least one more folder even in the first homework (for the fourth tutorial, "Hello, CSS"). And, presumably, many more (the tutorial has 14 chapters, though not all of them are assigned). You can create these new folders directly in VS Code or Pulsar by right-clicking in the empty space of the sidebar where the other folders already exist. (Other text editors probably have similar affordances.)
 </aside>
 
 
