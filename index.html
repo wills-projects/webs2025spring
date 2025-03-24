@@ -8,29 +8,63 @@
       media="all and (min-width:451px)"
       href="./static/css/styles.css"
     />
-    <!--
     <link
       rel="stylesheet"
       media="all and (max-width:450px)"
-      href="./static/css/index_smartphone.css"
+      href="./static/css/styles_smartphone.css"
     />
-    -->
   </head>
   <body>
     <header>
+      <img
+        src="./resources/images/portfolio portrait.jpg"
+        alt="A headshot of William Lee"
+        id="portrait"
+      />
       <h1>Welcome to My Portfolio!</h1>
-      <img src="./resources/images/#" alt="A headshot of William Lee" />
 
       <!-- Horizontal Navigation Bar -->
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Leadership</a></li>
-          <li><a href="/">About Me</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./experience.html">Experience</a></li>
+          <li><a href="./leadership.html">Leadership</a></li>
+          <li><a href="./about.html">About Me</a></li>
         </ul>
       </nav>
     </header>
+
+    <div class="main_section">
+      <ul class="main_section_images">
+        <li>
+          <a href="./projects.html"
+            ><img
+              src="./resources/images/operating systems graphics library.png"
+              alt="An image of a drawing I created using a system call graphics library."
+            />
+            <h2 id="projects">Projects</h2>
+          </a>
+        </li>
+        <li>
+          <a href="./experience.html"
+            ><img
+              src="./resources/images/tartanhacks.jpg"
+              alt="A picture of my friend and I judging a TartanHacks facial recognition project."
+            />
+            <h2>Experience</h2>
+          </a>
+        </li>
+        <li>
+          <a href="./leadership.html"
+            ><img
+              src="./resources/images/jazz ensemble.jpg"
+              alt="A picture of the Pitt Jazz Band ensemble rehearsing a song. I'm the vice president!"
+            />
+            <h2>Leadership</h2>
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

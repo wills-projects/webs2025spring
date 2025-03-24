@@ -32,3 +32,62 @@ img {
 /*---------------------------------------------------------------------------------------------------------*/
 /* This is where my CSS styling starts! */
 /*---------------------------------------------------------------------------------------------------------*/
+
+#portrait {
+    display: block;
+    margin: auto;
+    width: 25%;
+    clip-path: circle();
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the home page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.main_section_images {
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+}
+
+.main_section_images img {
+    margin: 15px;
+    width: 90%;
+}
+
+#projects {
+    transform: translate(20%, -240%);
+}
+
+.main_section_images h2 {
+    position: absolute;
+    color: white;
+    font-size: 5vw;
+
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
+    /* translating text */
+    transform: translate(15%, -240%);
+}
