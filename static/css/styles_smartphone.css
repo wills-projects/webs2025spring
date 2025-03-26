@@ -11,9 +11,9 @@ body {
 /* make the appearance less "default".
    Note that this is a light theme; you could also make a dark theme by reversing the colors. */
 body {
-    font-family: sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
     color: #333;             /* pull back from hard black */
-    background-color: #ddd;  /* pull back from hard white */
+    background-color: #FAF9F6;  /* pull back from hard white */
 }
 
 /* Use this class on section, article, or div elements
@@ -32,3 +32,81 @@ img {
 /*---------------------------------------------------------------------------------------------------------*/
 /* This is where my CSS styling starts! */
 /*---------------------------------------------------------------------------------------------------------*/
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+}
+
+#portrait {
+    display: flex;
+    align-self: center;
+    width: 22%;
+    clip-path: circle();
+}
+
+#welcome {
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    font-size: 5vw;
+}
+
+nav {
+    display: none;
+    list-style-type:none;
+    margin-bottom: 1.5vw;
+}
+
+nav li {
+    display: flex;
+    margin: 1.2vw;
+}
+
+.nav_links {
+    font-size: 5vw;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the home page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_section_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+}
+
+.main_section_list img {
+    width: 100%;
+}
+
+.main_section_list h2 {
+    position: absolute;
+    color: #FAF9F6;
+    font-size: 5vw;
+
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
+    /* translating text */
+    transform: translate(10%, -200%);
+}
+
+#projects {
+    transform: translate(15%, -200%);
+}
+
+

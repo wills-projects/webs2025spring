@@ -11,9 +11,9 @@ body {
 /* make the appearance less "default".
    Note that this is a light theme; you could also make a dark theme by reversing the colors. */
 body {
-    font-family: sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
     color: #333;             /* pull back from hard black */
-    background-color: #ddd;  /* pull back from hard white */
+    background-color: #FAF9F6;  /* pull back from hard white */
 }
 
 /* Use this class on section, article, or div elements
@@ -33,84 +33,52 @@ img {
 /* This is where my CSS styling starts! */
 /*---------------------------------------------------------------------------------------------------------*/
 
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #portrait {
-    display: block;
-    margin: auto;
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    width: 22%;
     clip-path: circle();
 }
 
-header {
-    text-align: center;
+#welcome {
+    margin-top: 0vw;
+    margin-bottom: 1.5vw;
+    font-size: 5vw;
 }
 
 nav {
-    text-align: center;
+    margin-top: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 nav li {
     display: inline;
-    margin: 0 10px;
+    margin: 1.2vw;
 }
 
-h2 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-
-/*---------------------------------------------------------------------------------------------------------*/
-/* Styling the experiences page */
-/*---------------------------------------------------------------------------------------------------------*/
-
-.experiences_section ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.experiences_section li {
-    display: flex;
-}
-
-.experiences_section img {
-    height: 20vw;
-    width: 20vw;
-    margin: 10px;
-}
-
-.experiences_section h2 {
-    text-align: left;
-    padding: 0px; 
-    margin: 5px;
-    font-size: 3vw;
-
-}
-
-.experiences_section h3 {
-    padding: 0px; 
-    margin: 5px;
-    font-size: 2vw;
-}
-
-.experiences_section p {
-    text-align: left;
-    padding: 0px; 
-    margin: 5px;
-    font-size: 1.8vw;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    padding: 0px; 
-    margin: 0px;
+.nav_links {
+    color: #FAF9F6;
+    background: #333;
+    text-decoration: none;
+    font-size: 2.2vw;
+    border-radius: 5vw;
+    padding: 0.4vw 1vw;
+    
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 
@@ -118,28 +86,125 @@ p {
 /* Styling the home page */
 /*---------------------------------------------------------------------------------------------------------*/
 
-.main_section_images {
-    list-style-type: none;
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_section_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+
+    list-style: none;
+    padding-left: 0;
     position: relative;
+}
+
+.main_section_list img {
     width: 100%;
 }
 
-.main_section_images img {
-    margin: 15px;
-    width: 90%;
-}
-
-#projects {
-    transform: translate(20%, -240%);
-}
-
-.main_section_images h2 {
+.main_section_list h2 {
     position: absolute;
-    color: white;
+    color: #FAF9F6;
     font-size: 5vw;
 
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
     /* translating text */
-    transform: translate(15%, -240%);
+    transform: translate(10%, -200%);
 }
+
+#projects {
+    transform: translate(15%, -200%);
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the experiences page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.experiences_list {
+    display: flex;
+    flex-direction: column;
+
+    list-style-type: none;
+    gap: 1vw;
+}
+
+.experiences_list li {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+.experiences_list img {
+    height: 20vw;
+    width: 20vw;
+}
+
+.experiences_list h2 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+    font-size: 3vw;
+}
+
+.experiences_list h3 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 2vw;
+}
+
+.experiences_list p {
+    padding: 0px; 
+    margin: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 1.8vw;
+}
+
+/* extra padding */
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the about me page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+#about_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about_section h2 {
+    margin: 20px 0px 0px 0px;
+    font-size: 3vw;
+}
+
+#about_section p {
+    text-align: justify;
+    margin: 1vw;
+
+    font-size: 1.8vw;
+    text-indent: 4vw;
+}
+
+
+

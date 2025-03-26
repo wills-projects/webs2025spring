@@ -5,38 +5,38 @@
     <title>Experiences</title>
     <link
       rel="stylesheet"
-      media="all and (min-width:451px)"
+      media="all and (min-width:501px)"
       href="./static/css/styles.css"
     />
     <link
       rel="stylesheet"
-      media="all and (max-width:450px)"
+      media="all and (max-width:500px)"
       href="./static/css/styles_smartphone.css"
     />
   </head>
   <body>
-    <header>
+    <header class="heading">
       <img
         src="./resources/images/portfolio portrait.jpg"
         alt="A headshot of William Lee"
         id="portrait"
       />
-      <h1>Welcome to My Portfolio!</h1>
+      <h1 id="welcome">Welcome to My Portfolio!</h1>
 
       <!-- Horizontal Navigation Bar -->
       <nav>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./projects.html">Projects</a></li>
-          <li><a href="./experience.html">Experience</a></li>
-          <li><a href="./leadership.html">Leadership</a></li>
-          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./index.html" class="nav_links">Home</a></li>
+          <li><a href="./projects.html" class="nav_links">Projects</a></li>
+          <li><a href="./experience.html" class="nav_links">Experience</a></li>
+          <li><a href="./leadership.html" class="nav_links">Leadership</a></li>
+          <li><a href="./about.html" class="nav_links">About Me</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="experiences_section">
-      <ul>
+    <section>
+      <ul class="experiences_list">
         <li>
           <a href="https://www.lrdc.pitt.edu/kitlab/"
             ><img src="./resources/images/kitlab.png" alt="KiTLab Logo"
@@ -51,7 +51,8 @@
             </p>
             <p>
               I was able to work there as a research assistant during my
-              freshman and sophomore year
+              freshman and sophomore year, doing data analysis and writing
+              scripts!
             </p>
           </div>
         </li>
@@ -89,6 +90,6 @@
           </div>
         </li>
       </ul>
-    </div>
+    </section>
   </body>
 </html>
