@@ -14,8 +14,12 @@ kitlab logo - Image courtesy of the University of Pittsburgh Kids' Thinking Lab
 
 operating systems graphics library - photo taken by me
 
+piano setup - photo taken by me
+
 portrait of William Lee - photo taken by Kevin
 
 tartanhacks logo - Image courtesy of ScottyLabs at Carnegie Mellon University
 
 tartanhacks selfie - photo taken by me
+
+valorant desktop icon - VALORANT desktop icon by Odeuo, https://www.reddit.com/r/VALORANT/comments/kk9ged/i_made_a_clean_valorant_desktop_icon/, 
