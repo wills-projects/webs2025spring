@@ -69,6 +69,31 @@ nav li {
     font-size: 5vw;
 }
 
+.footing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.footing ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 5vw;
+}
+
+.footing img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.footing a {
+    text-decoration: none;
+}
+
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the home page */
 /*---------------------------------------------------------------------------------------------------------*/
@@ -109,4 +134,204 @@ nav li {
     transform: translate(15%, -200%);
 }
 
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the projects page */
+/*---------------------------------------------------------------------------------------------------------*/
 
+.projects_list {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    padding-left: 0;
+    gap: 1vw;
+}
+
+.projects_list li {
+    display: flex;
+    flex-direction: column;
+
+    border: #333 double 1vw;
+    padding: 1vw;
+
+    gap: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+.projects_list img {
+    width: 100%;
+}
+
+.projects_list h2 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+    font-size: 3vw;
+}
+
+.projects_list h3 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 2vw;
+}
+
+.projects_list p {
+    padding: 0px; 
+    margin: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 1.8vw;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the experiences page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.experiences_list {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    padding-left: 0;
+    gap: 1vw;
+}
+
+.experiences_list li {
+    display: flex;
+    flex-direction: row;
+
+    border: #333 solid 0.75vw;
+    padding: 1vw;
+
+    gap: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+.experiences_list img {
+    height: 20vw;
+    width: 20vw;
+}
+
+.experiences_list h2 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+    font-size: 3vw;
+}
+
+.experiences_list h3 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 2vw;
+}
+
+.experiences_list p {
+    padding: 0px; 
+    margin: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 1.8vw;
+}
+
+/* extra padding */
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the leadership page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.leadership_list {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    padding-left: 0;
+    gap: 1vw;
+}
+
+.leadership_list li {
+    display: flex;
+    flex-direction: row;
+
+    border: #333 double 1vw;
+    padding: 1vw;
+
+    gap: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+.leadership_list img {
+    height: 20vw;
+    width: 20vw;
+}
+
+.leadership_list h2 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+    font-size: 3vw;
+}
+
+.leadership_list h3 {
+    padding: 0px; 
+    margin-left: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 2vw;
+}
+
+.leadership_list p {
+    padding: 0px; 
+    margin: 1vw;
+
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    font-size: 1.8vw;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the about me page */
+/*---------------------------------------------------------------------------------------------------------*/
+
+#about_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: #333 dashed 0.75vw;
+    padding: 2vw;
+}
+
+#about_section h2 {
+    margin: 0px 0px 0px 0px;
+    font-size: 3vw;
+}
+
+#about_section p {
+    text-align: justify;
+    margin: 1vw;
+
+    font-size: 2.5vw;
+    text-indent: 4vw;
+}

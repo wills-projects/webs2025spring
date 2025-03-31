@@ -5,12 +5,12 @@
     <title>Projects</title>
     <link
       rel="stylesheet"
-      media="all and (min-width:451px)"
+      media="all and (min-width:501px)"
       href="./static/css/styles.css"
     />
     <link
       rel="stylesheet"
-      media="all and (max-width:450px)"
+      media="all and (max-width:500px)"
       href="./static/css/styles_smartphone.css"
     />
   </head>
@@ -34,8 +34,62 @@
         </ul>
       </nav>
     </header>
-    <div>
-      <p>projects will go here</p>
-    </div>
+
+    <section>
+      <ul class="projects_list">
+        <li>
+          <div class="text">
+            <h2>Virtual Machine Graphics Library</h2>
+            <h3><i>C, QEMU, Linux, WinSCP</i></h3>
+            <p>
+              For this project, I developed a simple graphics library in C using
+              strictly Linux system calls! This library ran in a virtual machine
+              environment, specifically one called QEMU. The library used
+              functions that manipulated a framebuffer for pixel-based graphics
+              which is what you see in the drawing below!
+            </p>
+            <p>
+              This project involved many elements, such as handling user input,
+              drawing shapes, and utilizing specific system calls such as mmap()
+              for efficient memory access.
+            </p>
+          </div>
+          <a href=""
+            ><img
+              src="./resources/images/operating systems graphics library.png"
+              alt="Picture of a red digital keyboard next to a lamp"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footing">
+      <ul class="footer_icons">
+        <li>
+          <a href="./index.html"
+            ><img src="./resources/images/home icon.png" alt="Home Icon" />
+            <p>Home</p></a
+          >
+        </li>
+        <li>
+          <a href="./about.html"
+            ><img
+              src="./resources/images/about me icon.png"
+              alt="Info/About Me Icon"
+            />
+            <p>About Me</p></a
+          >
+        </li>
+        <li>
+          <a href="./about.html"
+            ><img
+              src="./resources/images/contact me icon.png"
+              alt="Telephone/Contact Me Icon"
+            />
+            <p>Contact</p></a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
